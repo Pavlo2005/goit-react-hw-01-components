@@ -1,6 +1,6 @@
 import styles from './friends.module.css';
 import '../../index.css';
-import { FriendsList } from './friendsList/friendsList';
+import { FriendsItem } from './frindsItem/friendsItem';
 
 
 export const Friends = ({ friends }) => {
@@ -9,10 +9,10 @@ export const Friends = ({ friends }) => {
 
     return (
         <section className={`container ${styles.section}`}>
-            <ul className={styles.friendList}>
+            <ul className={styles.friend}>
                 {
-                    friendsList.map(friend => (
-                        <FriendsList key={friend.id} avatar={friend.avatar} isOnline={friend.isOnline} name={friend.name} />
+                    friends.map(friend => (
+                        <FriendsItem key={friend.id} avatar={friend.avatar} isOnline={friend.isOnline} name={friend.name} />
                     ))
                 }
             </ul>

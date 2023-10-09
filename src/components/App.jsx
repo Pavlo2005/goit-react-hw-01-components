@@ -4,8 +4,8 @@ import { user } from "./profile/untils";
 import { Statistics } from "./statistics/statistics";
 import { data } from "./statistics/untils";
 
-import { Friends } from "./friendsList/friendsList";
-import { friendsList } from "./friendsList/untlis";
+import { Friends } from "./friends/friends";
+import { friendsList } from "./friends/untlis";
 
 export const App = () => {
   return (
