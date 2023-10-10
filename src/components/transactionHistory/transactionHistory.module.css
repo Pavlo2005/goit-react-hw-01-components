@@ -1,0 +1,42 @@
+.section {
+    width: 100%;
+}
+
+.transactionContainer {
+    width: 100%;
+
+    border: 1px solid #000;
+    border-collapse: collapse;
+}
+
+.transactionTitles {
+    text-align: center;
+}
+
+.transactionTitle {
+    background-color: rgb(180, 206, 224);
+
+    font-weight: 700;
+
+    padding: 8px 0;
+
+    width: 33%;
+}
+
+.item {
+
+    color: #e3ebeb;
+    color: #beeef2;
+}
+
+.type {
+    padding: 4px 0;
+}
+
+.amount {
+    padding: 4px 0;
+}
+
+.currency {
+    padding: 4px 0;
+}
