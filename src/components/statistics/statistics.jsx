@@ -3,13 +3,13 @@ import '../../index.css';
 import { StatsItem } from './statsItem/statsItem';
 
 
-export const Statistics = ({ data }) => {
+export const Statistics = ({ data, title }) => {
 
     console.log(data);
 
     return (
         <section className={`container ${styles.statistics}`}>
-            <h2 className={styles.title}>Upload stats</h2>
+            <h2 className={styles.title}>{title}</h2>
 
             <ul className={styles.statList}>
                 {
