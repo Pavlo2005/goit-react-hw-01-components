@@ -7,9 +7,11 @@ export const Statistics = ({ data, title }) => {
 
     console.log(data);
 
+    const statisticsTitle = title ? <h2 className={styles.title}>{title}</h2> : '';
+
     return (
         <section className={`container ${styles.statistics}`}>
-            <h2 className={styles.title}>{title}</h2>
+            {statisticsTitle}
 
             <ul className={styles.statList}>
                 {
